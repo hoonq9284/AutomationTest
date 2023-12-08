@@ -54,3 +54,16 @@ Scenario: 네이버 지도 페이지로 이동하기
 Scenario: 네이버 웹툰 페이지로 이동하기
     When 네이버 웹툰 메뉴를 클릭한다.
     Then 네이버 웹툰 페이지로 이동한다.
+
+Scenario: GNB 메뉴 - 바로가기 확인하기
+    Then GNB 메뉴 영역에 "바로가기" 아이콘이 표시된다.
+
+Scenario: GNB 메뉴 - 네이버페이 확인하기
+    Then GNB 메뉴 영역에 "네이버페이" 아이콘이 표시된다.
+
+Scenario: GNB 메뉴 - 네이버톡 확인하기
+    Then GNB 메뉴 영역에 "네이버톡" 아이콘이 표시된다.
+
+Scenario: GNB 메뉴 - 알림/혜택 확인하기
+    Then GNB 메뉴 영역에 "알림/혜택" 아이콘이 표시된다.
+    

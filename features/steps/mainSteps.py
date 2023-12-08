@@ -99,3 +99,19 @@ def step_impl(context):
 @then('네이버 웹툰 페이지로 이동한다.')
 def step_impl(context):
     context.mp.check_webtoon_logo()
+
+@then('GNB 메뉴 영역에 "바로가기" 아이콘이 표시된다.')
+def step_impl(context):
+    context.mp.check_top_aside_menu()
+
+@then('GNB 메뉴 영역에 "네이버페이" 아이콘이 표시된다.')
+def step_impl(context):
+    context.mp.check_top_pay_menu()
+
+@then('GNB 메뉴 영역에 "네이버톡" 아이콘이 표시된다.')
+def step_impl(context):
+    context.mp.check_top_talk_menu()
+
+@then('GNB 메뉴 영역에 "알림/혜택" 아이콘이 표시된다.')
+def step_impl(context):
+    context.mp.check_top_noti_menu()

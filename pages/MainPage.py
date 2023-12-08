@@ -104,3 +104,17 @@ class MainPage(BasePage):
         BasePage.is_displayed(self, pe.webtoon_main_logo)
         title = self.driver.title
         BasePage.assert_text(title, pe.webtoon_title)
+
+    def check_top_aside_menu(self):
+        BasePage.is_displayed(self, pe.top_aside_menu)
+
+    def check_top_pay_menu(self):
+        BasePage.is_displayed(self, pe.top_pay_menu)
+
+    def check_top_talk_menu(self):
+        BasePage.is_displayed(self, pe.top_talk_menu)
+
+    def check_top_noti_menu(self):
+        BasePage.is_displayed(self, pe.top_noti_menu)
+        
+        

@@ -31,9 +31,16 @@ map_title = '네이버 지도'
 webtoon_main_logo = '//h1[@class="BrandBar__logo_area--Y_7dM"]'
 webtoon_title = '네이버 웹툰'
 
+# GNB Menu Elements
+top_aside_menu = '//div[@id="topAsideArea"]'
+top_pay_menu = '//div[@id="topPayArea"]'
+top_talk_menu = '//div[@id="topTalkArea"]'
+top_noti_menu = '//div[@id="topNotiArea"]'
+
 # LoginPage Elements
 login_page_logo = '//a[@class="logo"]'
 id_input_field = '//input[@id="id"]'
 password_input_field = '//input[@id="pw"]'
 login_page_button = '//button[@id="log.login"]'
 error_message = '//div[@class="error_message"]'
+
